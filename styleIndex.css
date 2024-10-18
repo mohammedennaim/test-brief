@@ -93,7 +93,7 @@ section#collection {
     line-height: 30px;
 
 }
-#show-more {
+.gallery .art-grid-home div#show-more {
     margin-top: 30px;
     display: grid;
     grid-template-columns: auto;
