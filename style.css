@@ -11,7 +11,6 @@ body {
 
 nav {
     background-color: #d10202;
-    /* sea blue */
     padding: 15px 20px;
     position: fixed;
     width: 100%;
@@ -48,9 +47,7 @@ nav {
 
 .navbar ul li a:hover {
     color: #d10202;
-    /* sea blue */
     background-color: white;
-    /* lighter sea blue */
     border-radius: 5px;
 }
 
@@ -62,7 +59,6 @@ nav {
     width: 100%;
     height: 3px;
     background-color: #fa8181;
-    /* lighter sea blue */
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
@@ -111,24 +107,6 @@ nav {
     left: 30px;
 }
 
-.art-grid-gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: center;
-    row-gap: 40px;
-    column-gap: 20px;
-    width: 80vw;
-}
-
-.art-grid-home {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content: center;
-    row-gap: 40px;
-    column-gap: 20px;
-    width: 100%;
-}
-
 .art-item {
     width: 250px;
     height: 400px;
@@ -148,14 +126,6 @@ nav {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.art-grid-gallery button {
-    margin-top: 20px;
-    width: 250px;
-    height: 50px;
-    border: black 1px solid;
-    border-radius: 5px;
-    background-color: transparent;
-}
 #show-more button {
     background-color: #d10202;
     color: white;
@@ -164,6 +134,7 @@ nav {
     height: 50px;
     border-radius: 5px;
     font-size: 16px;
+    margin-top: 40px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
