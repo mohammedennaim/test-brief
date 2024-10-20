@@ -41,7 +41,7 @@
     background-color: #f56e6e;
 }
 
-.art-grid {
+.art-grid-home {
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: center;
